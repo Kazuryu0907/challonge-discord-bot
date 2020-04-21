@@ -64,7 +64,7 @@ challongeの出場チーム名が *AAA* とすると、discordの役職名を *[
 
     - アナウンスの構造  
 
-    ![graph](https://imgur.com/XyhgIs8)
+    ![graph](https://user-images.githubusercontent.com/41988990/79837105-eb82ea00-83eb-11ea-8c68-695f0904814d.png)
 
 - アナウンスのテスト  
 `/Tanno` で現在のアナウンスをテスト出来ます  
