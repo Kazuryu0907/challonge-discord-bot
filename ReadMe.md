@@ -10,6 +10,7 @@
 4. 次にchallongeのAPIとusernameをconfig.iniの中の**api_key**と**username**にコピペしてください  
 APIは[ここ](https://challonge.com/settings/developer)から取得できます
 
+5. `run.exe`を実行することでbotを起動できます
 # 前提
 前提として以下の事を守ってください
 - challongeの出場チーム名とdiscordの試合報告選手の役職は以下の原則に基づく  
