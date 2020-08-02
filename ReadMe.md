@@ -78,8 +78,8 @@ challongeの出場チーム名が *AAA* とすると、discordの役職名を *[
 `/setlive 配信試合の試合番号(,区切り)` 配信する試合の試合番号を設定する  
 `/start` Round1のアナウンスをする  
 `/anno 識別記号` アナウンスをカスタマイズする(cp932)  
-`/show` 紐づけられているchallongeのトーナメントidと配信試合の番号を確認する
-
+`/show` 紐づけられているchallongeのトーナメントid、配信試合の番号、クールタイムを確認する
+`/setcooltime` ラウンドの全試合終了時、アナウンスまでのクールタイムを設定する(未指定の時0秒)
 
 ## 不明点・要望等
 https://twitter.com/kazuryu_RL 自分のtwitter  
