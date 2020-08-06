@@ -14,7 +14,8 @@ APIは[ここ](https://challonge.com/settings/developer)から取得できます
 # 前提
 前提として以下の事を守ってください
 - challongeの出場チーム名とdiscordの試合報告選手の役職は以下の原則に基づく  
-challongeの出場チーム名が *AAA* とすると、discordの役職名を *[AAA]* としてください
+challongeの出場チーム名が *AAA* とすると、discordの役職名を *[AAA]* とする(**※デフォルト**)  
+(`/usenickname`を実行した場合はdiscordのニックネームとchallongeの出場チーム名を一致させる)
 
 # 使い方
 ## challongeの紐づけ
@@ -78,8 +79,10 @@ challongeの出場チーム名が *AAA* とすると、discordの役職名を *[
 `/setlive 配信試合の試合番号(,区切り)` 配信する試合の試合番号を設定する  
 `/start` Round1のアナウンスをする  
 `/anno 識別記号` アナウンスをカスタマイズする(cp932)  
-`/show` 紐づけられているchallongeのトーナメントid、配信試合の番号、クールタイムを確認する
-`/setcooltime` ラウンドの全試合終了時、アナウンスまでのクールタイムを設定する(未指定の時0秒)
+`/show` 紐づけられているchallongeのトーナメントid、配信試合の番号、クールタイムを確認する  
+`/setcooltime` ラウンドの全試合終了時、アナウンスまでのクールタイムを設定する(未指定の時0秒)  
+`/usenickname` discordのニックネームを使用して、試合結果を入力する  
+`/userolename` discordの役職を使用して、試合結果を入力する  
 
 ## 不明点・要望等
 https://twitter.com/kazuryu_RL 自分のtwitter  
